@@ -110,11 +110,7 @@ int main() {
                 printf("Super poder: %.2f\n",super_poder2);
 
                 //compara e exibe os super poderes e mostra o vencedor
-                printf("\nReasultado:\n");
-                if(super_poder1 > super_poder2) {printf("A primeira carta é a vencedora!\n");}
-                else if(super_poder1 < super_poder2) {printf("A segunda carta é a vencedora!\n");}
-                else {printf("Empate\n");}
-              
+                printf("Carta 1 é maior que carta 2? %d\n",super_poder1 > super_poder2);
 
 
 
